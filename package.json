@@ -1,0 +1,18 @@
+{
+  "name": "odyssey-social",
+  "version": "1.0.0",
+  "description": "Frontend Hackathon Submission - Reimagine Social",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "react",
+    "hackathon",
+    "social",
+    "network-graph"
+  ],
+  "author": "",
+  "license": "MIT"
+}
