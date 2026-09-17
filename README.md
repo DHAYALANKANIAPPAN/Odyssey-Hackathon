@@ -36,6 +36,3 @@ Simply drop the `index.html` file into your hosting provider. No build commands 
 2.  **Interactive 3D Cards:** The Discover tab features cards with 3D tilt and glare mechanics powered by Vanilla-Tilt.
 3.  **Live Activity Overlay:** A real-time activity feed that highlights meaningful interactions ("sparked a thought") rather than vanity metrics ("liked your post").
 4.  **Glassmorphism UI:** Premium frosted glass (backdrop-blur) elements and smooth, staggered entry animations.
-
----
-*Designed and developed for the Reimagine Social Hackathon.*
