@@ -349,20 +349,15 @@
 
                 return (
                     <div className="absolute inset-0 w-full h-full animate-fade-in-up">
-                        {/* Overlay UI: Top Left */}
                         <div className="absolute top-10 left-32 z-10 pointer-events-none">
                             <h1 className="text-5xl font-bold text-white mb-2 tracking-tight">The <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500 animate-pulse-glow inline-block">Constellation</span></h1>
                             <p className="text-slate-400 text-lg max-w-md">Break free from the feed. Explore ideas, join clusters of thought, and connect organically through shared curiosity.</p>
                         </div>
-                        
-                        {/* Overlay UI: Bottom Left Legend */}
                         <div className="absolute bottom-10 left-32 z-10 bg-surface/80 backdrop-blur-md p-4 rounded-2xl border border-slate-700/50 shadow-xl flex gap-6">
                             <div className="flex items-center gap-2"><div className="w-3 h-3 rounded-full bg-[#6366f1]"></div><span className="text-sm text-slate-300">Topics</span></div>
                             <div className="flex items-center gap-2"><div className="w-3 h-3 rounded-full bg-[#a5b4fc]"></div><span className="text-sm text-slate-300">Discussions</span></div>
                             <div className="flex items-center gap-2"><div className="w-3 h-3 rounded-full bg-[#94a3b8]"></div><span className="text-sm text-slate-300">People</span></div>
                         </div>
-
-                        {/* Overlay UI: Top Right Live Activity Feed */}
                         <div className="absolute top-10 right-10 z-10 w-80 pointer-events-none">
                             <h3 className="text-slate-400 text-xs font-bold uppercase tracking-widest mb-4 flex items-center gap-2">
                                 <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span> Live Network Activity
@@ -382,8 +377,6 @@
                                 ))}
                             </div>
                         </div>
-
-                        {/* Interactive Graph Canvas */}
                         <ForceGraph2D
                             ref={fgRef}
                             graphData={graphData}
@@ -505,7 +498,6 @@
                 </div>
             );
 
-            // Distinct Placeholder Views for Sidebar sections
             const CreateView = () => (
                 <div className="flex flex-col items-center justify-center h-[70vh] text-center animate-fade-in-up relative z-10">
                     <div className="w-24 h-24 bg-surface/50 backdrop-blur-sm rounded-full flex items-center justify-center mb-6 shadow-[0_0_30px_rgba(99,102,241,0.2)] border border-slate-700">
